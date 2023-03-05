@@ -1,0 +1,134 @@
+body {
+	background-color:  #0f3e25;
+}
+header {
+	background:  #90511e;
+	padding: 22px 0;
+}
+h1 img {
+	width: 97px;
+	height: 97px;
+  top: 60px;
+}
+h1 strong em {
+  position: absolute;
+  top: -63px;
+  margin: 100px;
+    display: inline;
+    font-size: 25px;
+    font-style: italic;
+}
+.caixa {
+	position: relative;
+	width: 940px;
+  height: 100px;
+	margin: 0 auto;
+}
+nav {
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+/* estilo para main */
+.imagensp {
+  width: 500px;
+  height: 600px;
+}
+.imagem-seta {
+  position: absolute;
+  display: inline;
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.detalhes-produto {
+  position: relative;
+  float: right;
+  width: 40%;
+  margin-right: 47px;
+  margin-top: -600px;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #90511e;
+  border: 2px solid black;
+  padding: 10px;
+
+}
+
+.detalhes-produto:hover {
+  box-shadow: 0px 0px 10px #000;
+  font-size: 17px;
+}
+.socialicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.social {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+}
+
+
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.links a {
+  background-color: #2E4053;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.links a:hover {
+  background-color: #1B2631;
+}
+
+/* Estilo para o rodapé */
+footer {
+	margin: 12px;
+	border: 1px solid #90511e;
+    background-color: #90511e;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 0px 10px 0px rgba(144, 81, 30, 0.5);
+  height: 450px;  
+}
+
+footer:hover {
+    box-shadow: 0px 0px 20px 0px rgba(144, 81, 30, 0.8);
+}
+
+footer p {
+    margin-top: 10px;
+    color: #fff;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+}
